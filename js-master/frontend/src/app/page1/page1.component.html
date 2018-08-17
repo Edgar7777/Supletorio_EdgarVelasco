@@ -1,0 +1,71 @@
+<h1>JUEGOS</h1>
+<div class="row">
+
+  <div class="col-sm-6">
+      USUARIO 1
+    <mat-card class="example-card">
+      <mat-card-header>
+        <div mat-card-avatar class="example-header-image"></div>
+        <mat-card-title>PLAYER 1</mat-card-title>
+        <mat-card-subtitle> </mat-card-subtitle>
+      </mat-card-header>
+      <img mat-card-image src="https://material.angular.io/assets/img/examples/shiba2.jpg" alt="Photo of a Shiba Inu">
+      <mat-card-content>
+        <p>
+
+        </p>
+      </mat-card-content>
+      <mat-card-actions>
+        <div class="row">
+          <div class="col-sm-2"></div>
+          <div class="col-sm-8">
+            <mat-form-field>
+              <input matInput placeholder="Nombre" #nombre>
+            </mat-form-field>
+            <br>
+            <button mat-raised-button color="primary" (click)="saludo(nombre)">Saludar</button>
+            <br>
+
+            <button mat-raised-button color="primary" (click)="abrirDialogo(nombre)">Cambiar nombre</button>
+          </div>
+          <div class="col-sm-2"></div>
+        </div>
+
+      </mat-card-actions>
+    </mat-card>
+  </div>
+  <div class="col-sm-6">
+      USUARIO 2
+    <mat-card class="example-card">
+      <mat-card-header>
+        <div mat-card-avatar class="example-header-image"></div>
+        <mat-card-title>PLAYER 2</mat-card-title>
+        <mat-card-subtitle> </mat-card-subtitle>
+      </mat-card-header>
+      <img mat-card-image src="https://material.angular.io/assets/img/examples/shiba2.jpg" alt="Photo of a Shiba Inu">
+      <mat-card-content>
+        <p>
+
+        </p>
+      </mat-card-content>
+      <mat-card-actions>
+        <div class="row">
+          <div class="col-sm-2"></div>
+          <div class="col-sm-8">
+            <mat-form-field>
+              <input matInput placeholder="Nombre" #nombre>
+            </mat-form-field>
+            <br>
+            <button mat-raised-button color="primary" (click)="saludo(nombre)">Saludar</button>
+            <br>
+
+            <button mat-raised-button color="primary" (click)="abrirDialogo(nombre)">Cambiar nombre</button>
+          </div>
+          <div class="col-sm-2"></div>
+        </div>
+
+      </mat-card-actions>
+    </mat-card>
+  </div>
+
+</div>
