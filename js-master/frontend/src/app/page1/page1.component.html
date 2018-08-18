@@ -23,10 +23,11 @@
               <input matInput placeholder="Nombre" #nombre>
             </mat-form-field>
             <br>
-            <button mat-raised-button color="primary" (click)="saludo(nombre)">Saludar</button>
-            <br>
+            <mat-form-field>
+              <input matInput placeholder="Password" #nombre>
+            </mat-form-field>
+            <button mat-raised-button color="primary" (click)="saludo(nombre)">Ingresar Primer Jugador</button>
 
-            <button mat-raised-button color="primary" (click)="abrirDialogo(nombre)">Cambiar nombre</button>
           </div>
           <div class="col-sm-2"></div>
         </div>
@@ -56,10 +57,12 @@
               <input matInput placeholder="Nombre" #nombre>
             </mat-form-field>
             <br>
-            <button mat-raised-button color="primary" (click)="saludo(nombre)">Saludar</button>
+            <mat-form-field>
+              <input matInput placeholder="Password" #nombre>
+            </mat-form-field>
+            <button mat-raised-button color="primary" (click)="saludo(nombre)">Ingresar Segundo Jugador</button>
             <br>
 
-            <button mat-raised-button color="primary" (click)="abrirDialogo(nombre)">Cambiar nombre</button>
           </div>
           <div class="col-sm-2"></div>
         </div>
@@ -69,3 +72,21 @@
   </div>
 
 </div>
+
+<div class="row">
+
+  <div class="col-sm-4"></div>
+  <div class="col-sm-4">
+    <button mat-raised-button color="primary" (click)="abrirDialogo(nombre)">Cambiar nombre</button>
+    <br/><br/>
+
+    <button mat-raised-button color="primary" (click)="abrirDialogo(nombre)">Cambiar nombre</button>
+
+  </div>
+  <div class="col-sm-4"></div>
+
+
+
+</div>
+
+
